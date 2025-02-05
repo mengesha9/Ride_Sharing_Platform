@@ -1,0 +1,51 @@
+# Ignore Visual Studio files
+.vs/
+/bin/
+/obj/
+*.suo
+*.user
+*.vscode/
+
+# Ignore NuGet packages
+*.nuget.props
+*.nuget.targets
+*.lock.json
+paket-files/
+*.nupkg
+**/node_modules
+**/bower_components
+# Ignore user-specific files
+*.user
+*.suo
+*.userprefs
+*.lock
+*.cache
+# Ignore sensitive or generated files
+appsettings.Development.json
+appsettings.Production.json
+*.pfx
+*.cer
+*.snk
+# Ignore build artifacts
+*.dll
+*.exe
+*.pdb
+*.dll.config
+*.cache
+*.log
+*.vsix
+*.zip
+*.tgz
+
+# Ignore publish output
+publish/
+*.csproj.AssemblyReference.cache
+
+# Ignore build output
+**/bin/*
+**/obj/*
+
+# Ignore test results files
+**/Test*Results/
+**/coverage.json
+coverage.json

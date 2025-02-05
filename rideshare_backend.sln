@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rideshare.Application", "src\Rideshare.Application\Rideshare.Application.csproj", "{F87816BE-04CB-444F-BF12-FE5157CBA0B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rideshare.Domain", "src\Rideshare.Domain\Rideshare.Domain.csproj", "{B492DD23-3774-472B-AF01-16661EE162D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rideshare.Infrastructure", "src\Rideshare.Infrastructure\Rideshare.Infrastructure.csproj", "{3ED0F993-CA99-4524-9DF5-005813B6FCAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rideshare.Webapi", "src\Rideshare.Webapi\Rideshare.Webapi.csproj", "{60FC6542-6652-47E0-8E97-F38E69E43A5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rideshare.Application.Test", "test\Rideshare.Application.Test\Rideshare.Application.Test.csproj", "{8CC44D4A-01AC-40E0-BD78-C8E4B6574A86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F87816BE-04CB-444F-BF12-FE5157CBA0B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F87816BE-04CB-444F-BF12-FE5157CBA0B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F87816BE-04CB-444F-BF12-FE5157CBA0B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F87816BE-04CB-444F-BF12-FE5157CBA0B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B492DD23-3774-472B-AF01-16661EE162D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B492DD23-3774-472B-AF01-16661EE162D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B492DD23-3774-472B-AF01-16661EE162D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B492DD23-3774-472B-AF01-16661EE162D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ED0F993-CA99-4524-9DF5-005813B6FCAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ED0F993-CA99-4524-9DF5-005813B6FCAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ED0F993-CA99-4524-9DF5-005813B6FCAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED0F993-CA99-4524-9DF5-005813B6FCAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2EA45E9-83DB-407E-A143-E1F6AE6A23D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2EA45E9-83DB-407E-A143-E1F6AE6A23D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2EA45E9-83DB-407E-A143-E1F6AE6A23D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2EA45E9-83DB-407E-A143-E1F6AE6A23D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60FC6542-6652-47E0-8E97-F38E69E43A5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60FC6542-6652-47E0-8E97-F38E69E43A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60FC6542-6652-47E0-8E97-F38E69E43A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60FC6542-6652-47E0-8E97-F38E69E43A5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29B2262F-41C3-409C-94E2-BFFC62CFD2D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29B2262F-41C3-409C-94E2-BFFC62CFD2D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29B2262F-41C3-409C-94E2-BFFC62CFD2D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29B2262F-41C3-409C-94E2-BFFC62CFD2D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CC44D4A-01AC-40E0-BD78-C8E4B6574A86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CC44D4A-01AC-40E0-BD78-C8E4B6574A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CC44D4A-01AC-40E0-BD78-C8E4B6574A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CC44D4A-01AC-40E0-BD78-C8E4B6574A86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

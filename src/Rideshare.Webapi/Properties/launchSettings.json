@@ -1,0 +1,50 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:4441",
+      "sslPort": 44300 
+    }
+  },
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SMS_URL": "https://api.geezsms.com/api/v1/sms/send",
+        "SMS_TOKEN": "FFx4Iadi47gCCtXmHxZ3MYavFkpot7uw",
+        "CLOUDINARY_CLOUD_NAME": "docfnauac",
+        "CLOUDINARY_API_KEY": "912233784348645",
+        "CLOUDINARY_API_SECRET": "XX7ulI_zcA8EEurV6AXN-vWHveM",    
+        "Test_Publickey" : "CHAPUBK_TEST-8Vzu7v0W5QLHNsoHtSikuWEcCB8BC9SI",
+        "Chapa_Test_Secretkey" : "CHASECK_TEST-kylDLMOjlWjQ8lRGxAtzum8VKpZ6a4cq"
+    
+
+      },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7055;http://localhost:5073",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
+}
